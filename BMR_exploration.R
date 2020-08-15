@@ -19,7 +19,7 @@ library(gganimate)
 bmr <- read_csv("BMR_democracy.csv")
 
 # Shape data ----
-## manually add 11 years to all duraitons for US, adjusting for 1789 democratization in a dataset starting at 1800
+## manually add 11 years to all durations for US, adjusting for 1789 democratization in a dataset starting at 1800
 bmr %>% filter(country !='UNITED STATES OF AMERICA') %>% 
   summarize(safety_check = sum(democracy_duration, na.rm = TRUE))
 
