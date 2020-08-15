@@ -16,7 +16,6 @@ library(gganimate)
 #  "Boix-Miller-Rosato Dichotomous Coding of Democracy, 1800-2015"
 #  Harvard Dataverse V3, https://doi.org/10.7910/DVN/FJLMKT
 
-setwd('c:/Tony/Political Science MA/data/Boix Miller Rosato')
 bmr <- read_csv("BMR_democracy.csv")
 
 # Shape data ----
